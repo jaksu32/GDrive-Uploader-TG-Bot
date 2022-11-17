@@ -3,9 +3,9 @@ import os
 class Config:
   ENV = bool(os.environ.get('ENV', False))
   if ENV:
-    BOT_TOKEN = os.environ.get('BOT_TOKEN')
-    APP_ID = os.environ.get('APP_ID')
-    API_HASH = os.environ.get('API_HASH')
+    BOT_TOKEN = os.environ.get('5587311521:AAFcGar2idhzJr3obs2hgrFXUmWzexYaqtI')
+    APP_ID = os.environ.get('15073707')
+    API_HASH = os.environ.get('0f0ff9b47cbd315fb9672aef08eee93c')
     DATABASE_URL = os.environ.get('DATABASE_URL')
   else:
     BOT_TOKEN = '1394534244:AAHbVTthzn1sNbclrt9lyrrSt_Msvz46jWA' # Get it from https://t.me/BotFather
